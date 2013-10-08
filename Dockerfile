@@ -14,4 +14,4 @@ RUN wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py --no-ch
 RUN wget https://raw.github.com/pypa/pip/master/contrib/get-pip.py --no-check-certificate -O - | python
 RUN make develop
 
-EXPOSE 8080
+EXPOSE 8080:8080
